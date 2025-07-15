@@ -1,5 +1,14 @@
 ## linux-tkg
 
+# NOTICE - Ubuntu Prebuilt packages are not building for whatever reason, this is in the process of being fixed. I've opened a Github Issue (https://github.com/Frogging-Family/linux-tkg/issues/1111) about this.
+
+## Patches from - 
+
+https://github.com/CachyOS/kernel-patches - Cachy OS Specific Patches
+https://github.com/whitehara/kernel-patch-fedora - Whiehara's collection of patches, this honestly saves me a bunch of time!
+
+
+
 This repository provides scripts to automatically download, patch and compile the Linux Kernel from [the official Linux git repository](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git), with a selection of patches aiming for better desktop/gaming experience. The provided patches can be enabled/disabled by editing the `customization.cfg` file and/or by following the interactive install script. You can use an external config file (default is `$HOME/.config/frogminer/linux-tkg.cfg`, tweakable with the `_EXT_CONFIG_PATH` variable in `customization.cfg`). You can also use your own patches (more information in `customization.cfg` file).
 
 ### Important information
